@@ -1,0 +1,78 @@
+.btn:hover {
+	border: 2px solid blue
+}
+.buttonWrapper{
+	width:100%;
+}
+header {
+	text-align:center;
+	background-image: url(Logo2.png);
+}
+.welcome{
+	text-align:center;
+}
+.welcometext{
+	text-align:center;
+}
+body {
+	text-align: justify;
+	font-family: "Georgia", Times, serif;
+	font-size: large;
+	background: rgba(101, 57, 221, 0.863);
+	margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px; 
+    margin-left: 0px;
+}
+.img1:hover{
+	border-color:black;
+}
+.img1-wrapper{
+	display:flex;
+}
+.img1{
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 3px transparent;
+	border-radius: 5%;
+}
+.img1 img{
+	display: block;
+}
+
+nav {
+	display:flex;
+	font-weight: bold;
+	font-size:large;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+nav a {
+	flex-grow: 1;
+	display:block;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration:none;
+	color:rgb(0, 0, 0);
+	transition: 600ms;
+}
+nav a:hover{
+	background:rgb(95, 0, 133);
+	color:black;
+}
+.change {
+	background-color: rgb(170, 48, 26);
+}
+.btn {
+	display: block;
+	margin: 10px 0 0px 5px;
+	padding: 5px 10px;
+	font-size: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgb(214, 199, 197)
+}
+#footer{
+	margin-bottom: 8px;
+}
+

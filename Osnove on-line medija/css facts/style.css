@@ -1,0 +1,35 @@
+.checkbox {
+	width: 1% !important;
+  }
+.massageHidden{
+	display:none;
+}
+header {
+	text-align:center;
+	background-image: url(Logo2.png);
+}
+body {
+	text-align: justify;
+	font-family: "Georgia", Times, serif;
+	font-size:large;
+	background: rgba(101, 57, 221, 0.863);
+}
+nav {
+	display:flex;
+	font-weight: bold;
+	font-size:large;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+nav a {
+	flex-grow: 1;
+	display:block;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration:none;
+	color:rgb(0, 0, 0);
+	transition: 600ms;
+}
+nav a:hover{
+	background:rgb(95, 0, 133);
+	color:black;
+}
